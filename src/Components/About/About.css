@@ -1,0 +1,56 @@
+/* About.css */
+.about-background {
+    background-color: #000;
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+}
+
+.Media.Profiles {
+    margin-top: 15px;
+}
+
+.Media.Profiles a {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.github {
+    background-color: #333;
+}
+
+.Media.Profiles a:hover {
+    opacity: 0.8;
+}

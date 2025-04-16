@@ -1,0 +1,106 @@
+.Project {
+    background-color: #000; 
+    color: white;
+    padding: 40px;
+    width: 100%; 
+    min-height: 100vh; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+}
+
+.Project h5 {
+    color: greenyellow;
+    font-size: 3rem;
+    margin-bottom: 50px; 
+    margin-left: 40px; 
+    text-align: left;
+}
+
+.Project-card1 {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    width: 50%; 
+    max-width: 600px; 
+    min-height: 50vh; 
+    margin-left: 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.Project-card1 h6 {
+    color: red;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.Project-card1 p {
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+    flex-grow: 1; 
+}
+
+.Project-card1 a {
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.Project-card1 button {
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.Project-card1 button:active {
+    background-color: red;
+}
+
+
+.Project-card1 button:active {
+    background-color: red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Project h5 {
+        font-size: 2.5rem;
+        margin-left: 20px; /* Keeps heading aligned left */
+        margin-bottom: 40px; /* Increased spacing in smaller screens */
+    }
+
+    .Project-card1 {
+        width: 80%;
+        min-height: 40vh;
+        margin-left: 20px; 
+    }
+
+    .Project-card1 h6 {
+        font-size: 1.8rem;
+    }
+
+    .Project-card1 p {
+        font-size: 1rem;
+    }
+
+    .Project-card1 button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
