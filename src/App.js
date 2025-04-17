@@ -30,7 +30,7 @@ const App = () => {
     try {
       const response = await fetch('https://api.github.com/user/repos', {
         headers: {
-          Authorization: 'Bearer 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'
+          Authorization: 'bearer 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'
         }
       });
       if (!response.ok) throw new Error("Failed to fetch repositories");
