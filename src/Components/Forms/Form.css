@@ -1,0 +1,53 @@
+/* src/Components/Form/Form.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Black background for entire page */
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 100px auto; /* Center form vertically and horizontally */
+    padding: 40px;
+    background: #1c1c1c; /* Dark grey background for form */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #45a049;
+  }
+  
